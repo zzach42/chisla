@@ -12,6 +12,7 @@ while True:
     if Ch == n:
         print("Вы угадали!")
         print("Кол-во попыток: ", Pop)
+        break
     elif Ch > n:
         print("Ваше число больше загадонного.")
     else:
